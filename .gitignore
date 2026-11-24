@@ -1,0 +1,28 @@
+# ── Secrets: never commit ──
+.env
+.env.*
+.claude/settings.local.json
+
+# ── Videos (rendered reels and downloaded reference reels) ──
+*.mp4
+*.mov
+
+# ── Per-part production media: stays on the production PC (the old PC) ──
+# Text files (scripts, plans, edit.json, publish.md, image-prompts.md) ARE committed.
+series/**/images/
+series/**/preview/
+series/**/audio/
+series/**/Voiceover/
+series/**/reference-images/
+series/**/image-brief-references/
+series/**/*.pdf
+series/**/*.zip
+series/**/cover.jpg
+
+# ── Misc ──
+*.wav
+*.bak
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini

@@ -1,0 +1,49 @@
+{
+  "model": "eleven_v4",
+  "default": "NARRATOR",
+  "gap": 0.3,
+  "voices": {
+    "NARRATOR": {
+      "name": "Brian (deep, calm American narrator)",
+      "id": "nPczCjzI2devNBz1zQrb",
+      "stability": 0.5,
+      "similarity": 0.8
+    },
+    "COPY": {
+      "name": "Liam (YOU's voice, used by the copy)",
+      "id": "TX3LPaxmHKxFdv7VOQHJ",
+      "stability": 0.45,
+      "similarity": 0.8
+    },
+    "LILY": {
+      "name": "Gigi (small child)",
+      "id": "jBpfuIE2acCO8z3wKNLl",
+      "stability": 0.45,
+      "similarity": 0.75
+    },
+    "PRUITT": {
+      "name": "Clyde (old, raspy)",
+      "id": "2EiwWnXFnvU5JabPnv8n",
+      "stability": 0.5,
+      "similarity": 0.75
+    },
+    "MOM": {
+      "name": "Matilda (warm woman)",
+      "id": "XrExE9yKIg1WjnnlVkGX",
+      "stability": 0.5,
+      "similarity": 0.75
+    },
+    "RUTH": {
+      "name": "Matilda, read older (off-screen voice behind Pruitt)",
+      "id": "XrExE9yKIg1WjnnlVkGX",
+      "stability": 0.4,
+      "similarity": 0.7
+    },
+    "YOU": {
+      "name": "Liam (YOU, speaking for himself; Part 5 only)",
+      "id": "TX3LPaxmHKxFdv7VOQHJ",
+      "stability": 0.55,
+      "similarity": 0.8
+    }
+  }
+}

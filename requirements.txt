@@ -1,0 +1,12 @@
+# Python 3.12 (Windows). Install with:  python -m pip install -r requirements.txt
+# Also needed: Google Chrome or Microsoft Edge (make_image_brief.py prints the PDF with it),
+# and the Windows fonts Arial Black / Arial Bold / Segoe UI Bold / Consolas (build_part.py).
+# ffmpeg comes bundled with imageio-ffmpeg; no separate install needed.
+numpy==2.5.3
+pillow==11.3.0
+opencv-python==5.0.0.93
+imageio-ffmpeg==0.6.0
+elevenlabs==2.74.1
+faster-whisper==1.2.1
+# Used by hand (not by the tools): yt-dlp downloads reference reels and public stats.
+yt-dlp==2026.8.19
